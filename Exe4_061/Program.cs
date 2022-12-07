@@ -27,6 +27,16 @@ namespace Exe4_061
                 return(false);
         }
 
-        
+        public void push(int item)
+        {
+            if( top == max - 1)
+            {
+                return;
+            }
+            else
+            {
+                element[top++] = item;
+            }
+        }
     }
 }
