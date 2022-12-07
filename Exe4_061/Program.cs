@@ -38,5 +38,18 @@ namespace Exe4_061
                 element[top++] = item;
             }
         }
-    }
+
+        public int pop()
+        {
+            if (top == -1)
+            {
+                return -1;
+            }
+            else
+            {
+                Console.WriteLine("\nThe Poped element is :  " + element[top]);
+                return element[top--];
+            }
+        }
+   }
 }
