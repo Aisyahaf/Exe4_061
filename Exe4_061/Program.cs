@@ -8,13 +8,13 @@ namespace Exe4_061
 {
    class Stacks
    {
-        public int[] element;
+        public int[] aisah;
         public int top;
         public int max;
 
         public Stacks(int size)
         {
-            element = new int[size];
+            aisah = new int[size];
             top = -1;
             max = size;
         }
@@ -35,7 +35,7 @@ namespace Exe4_061
             }
             else
             {
-                element[top++] = item;
+                aisah[top++] = item;
             }
         }
 
@@ -47,8 +47,8 @@ namespace Exe4_061
             }
             else
             {
-                Console.WriteLine("\nThe Poped element is :  " + element[top]);
-                return element[top--];
+                Console.WriteLine("\nThe Poped element is :  " + aisah[top]);
+                return aisah[top--];
             }
         }
 
@@ -60,7 +60,7 @@ namespace Exe4_061
             {
                 for (int i = 0; i <= top; i++)
                 {
-                    Console.WriteLine("Item [ " + (i + 1) + "] : " + element[i]);
+                    Console.WriteLine("Item [ " + (i + 1) + "] : " + aisah[i]);
                 }
                 Console.WriteLine();
             }
