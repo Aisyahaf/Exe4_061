@@ -87,6 +87,15 @@ namespace Exe4_061
                         int num = Convert.ToInt32(Console.ReadLine());
                         s.push(num);
                         break;
+
+                    case '2':
+                        if (s.empty())
+                        {
+                            Console.WriteLine("\nStack Is Empty");
+                            break;
+                        }
+                        s.pop();
+                        break;
                 }
             }
         }
