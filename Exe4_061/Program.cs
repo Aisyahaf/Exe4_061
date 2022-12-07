@@ -96,6 +96,10 @@ namespace Exe4_061
                         }
                         s.pop();
                         break;
+
+                    case '3':
+                        s.display();
+                        break;
                 }
             }
         }
