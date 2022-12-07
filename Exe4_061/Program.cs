@@ -68,7 +68,7 @@ namespace Exe4_061
 
         static void Main(string[] args)
         {
-
+            Stacks s = new Stacks(79);
         }
 
    }
