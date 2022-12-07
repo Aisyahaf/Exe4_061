@@ -51,5 +51,20 @@ namespace Exe4_061
                 return element[top--];
             }
         }
+
+        public void display()
+        {
+            if (empty())
+                Console.WriteLine("\nStack Empty");
+            else
+            {
+                for (int i = 0; i <= top; i++)
+                {
+                    Console.WriteLine("Item [ " + (i + 1) + "] : " + element[i]);
+                }
+                Console.WriteLine();
+            }
+        }
+
    }
 }
