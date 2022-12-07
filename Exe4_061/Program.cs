@@ -66,5 +66,10 @@ namespace Exe4_061
             }
         }
 
+        static void Main(string[] args)
+        {
+
+        }
+
    }
 }
