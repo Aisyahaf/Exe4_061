@@ -69,6 +69,16 @@ namespace Exe4_061
         static void Main(string[] args)
         {
             Stacks s = new Stacks(79);
+            while (true)
+            {
+                Console.WriteLine();
+                Console.WriteLine("\n=======STACK MENU=======\n");
+                Console.WriteLine("1. Push");
+                Console.WriteLine("2. Pop");
+                Console.WriteLine("3. Display");
+                Console.WriteLine("4. Exit");
+
+            }
         }
 
    }
